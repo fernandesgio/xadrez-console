@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xadrez-console", "xadrez-console\xadrez-console.csproj", "{10772D6C-8607-486D-ABB4-137CEA49D723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tabuleiro", "tabuleiro", "{D32DE676-B2EA-458B-8786-1A994C0A1A29}"
+	ProjectSection(SolutionItems) = preProject
+		Cor.cs = Cor.cs
+		Peca.cs = Peca.cs
+		Posicao.cs = Posicao.cs
+		Tabuleiro.cs = Tabuleiro.cs
+		TabuleiroException.cs = TabuleiroException.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xadrez", "xadrez", "{49DA4DA2-E965-4730-8083-34C4C756C604}"
+	ProjectSection(SolutionItems) = preProject
+		Bispo.cs = Bispo.cs
+		Cavalo.cs = Cavalo.cs
+		Dama.cs = Dama.cs
+		PartidaDeXadrez.cs = PartidaDeXadrez.cs
+		Peao.cs = Peao.cs
+		PosicaoXadrez.cs = PosicaoXadrez.cs
+		Rei.cs = Rei.cs
+		Torre.cs = Torre.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10772D6C-8607-486D-ABB4-137CEA49D723}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{10772D6C-8607-486D-ABB4-137CEA49D723}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{10772D6C-8607-486D-ABB4-137CEA49D723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10772D6C-8607-486D-ABB4-137CEA49D723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10772D6C-8607-486D-ABB4-137CEA49D723} = {49DA4DA2-E965-4730-8083-34C4C756C604}
+		{D32DE676-B2EA-458B-8786-1A994C0A1A29} = {49DA4DA2-E965-4730-8083-34C4C756C604}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2B089F-79B2-434A-959F-1C5B0799D4B9}
+	EndGlobalSection
+EndGlobal
